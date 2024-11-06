@@ -17,7 +17,7 @@ Execute the program and start adding games.
 
 Click on File > Add Game and select the folder where the game resides. To detect the executable file, its name must match the game name.
 
-E.g.
+Example:
 
-> DeadSpace
+> DeadSpace  
     > |---- DeadSpace.exe
