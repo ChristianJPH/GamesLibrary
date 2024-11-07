@@ -33,7 +33,7 @@ class Program:
     def start(self):
         dpg.create_context()
         self.directory_search()
-        with dpg.window(tag=self._main_window, autosize=True,no_resize=False, horizontal_scrollbar=True) as window:
+        with dpg.window(tag=self._main_window) as window:
             with dpg.menu_bar():
                 with dpg.menu(label="File"):
                     dpg.add_menu_item(label="Add Game", callback=lambda: dpg.show_item("file_dialog_id"))

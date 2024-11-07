@@ -3,3 +3,4 @@ main.py
 __pycache__
 build
 gamelibrary.spec
+games.json
